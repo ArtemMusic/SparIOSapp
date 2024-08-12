@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CD8C55D2C67554300CFF600 /* SparIosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8C55C2C67554300CFF600 /* SparIosApp.swift */; };
+		8CD8C55F2C67554300CFF600 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8C55E2C67554300CFF600 /* ContentView.swift */; };
+		8CD8C5612C67554400CFF600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD8C5602C67554400CFF600 /* Assets.xcassets */; };
+		8CD8C5642C67554400CFF600 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD8C5632C67554400CFF600 /* Preview Assets.xcassets */; };
+		8CD8C56B2C67557700CFF600 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8C56A2C67557700CFF600 /* ProductCard.swift */; };
+		8CD8C5702C6756AE00CFF600 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8C56F2C6756AE00CFF600 /* GridView.swift */; };
+		8CD8C5742C67573100CFF600 /* ItemProductCardGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8C5732C67573100CFF600 /* ItemProductCardGrid.swift */; };
+		8CD8C5762C67577900CFF600 /* SwitchViewBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8C5752C67577900CFF600 /* SwitchViewBar.swift */; };
+		8CD8C57A2C67599700CFF600 /* ProductCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8C5792C67599700CFF600 /* ProductCardViewModel.swift */; };
+		8CD8C57D2C67659300CFF600 /* TopSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8C57C2C67659300CFF600 /* TopSection.swift */; };
+		8CD8C5812C67667700CFF600 /* BottomSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8C5802C67667700CFF600 /* BottomSection.swift */; };
+		8CD8C5832C6766A800CFF600 /* CustomRoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8C5822C6766A800CFF600 /* CustomRoundedShape.swift */; };
+		8CD8C5882C677F9D00CFF600 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8C5872C677F9D00CFF600 /* ListView.swift */; };
+		8CD8C58A2C67836400CFF600 /* ItemProductCardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8C5892C67836400CFF600 /* ItemProductCardList.swift */; };
+		8CD8C58C2C6785E300CFF600 /* LeftSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8C58B2C6785E300CFF600 /* LeftSection.swift */; };
+		8CD8C58E2C6785F200CFF600 /* RightSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8C58D2C6785F200CFF600 /* RightSection.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8CD8C5592C67554300CFF600 /* SparIosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparIosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD8C55C2C67554300CFF600 /* SparIosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparIosApp.swift; sourceTree = "<group>"; };
+		8CD8C55E2C67554300CFF600 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8CD8C5602C67554400CFF600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CD8C5632C67554400CFF600 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CD8C56A2C67557700CFF600 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		8CD8C56F2C6756AE00CFF600 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		8CD8C5732C67573100CFF600 /* ItemProductCardGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemProductCardGrid.swift; sourceTree = "<group>"; };
+		8CD8C5752C67577900CFF600 /* SwitchViewBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewBar.swift; sourceTree = "<group>"; };
+		8CD8C5792C67599700CFF600 /* ProductCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardViewModel.swift; sourceTree = "<group>"; };
+		8CD8C57C2C67659300CFF600 /* TopSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSection.swift; sourceTree = "<group>"; };
+		8CD8C5802C67667700CFF600 /* BottomSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSection.swift; sourceTree = "<group>"; };
+		8CD8C5822C6766A800CFF600 /* CustomRoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoundedShape.swift; sourceTree = "<group>"; };
+		8CD8C5872C677F9D00CFF600 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		8CD8C5892C67836400CFF600 /* ItemProductCardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemProductCardList.swift; sourceTree = "<group>"; };
+		8CD8C58B2C6785E300CFF600 /* LeftSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSection.swift; sourceTree = "<group>"; };
+		8CD8C58D2C6785F200CFF600 /* RightSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightSection.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CD8C5562C67554300CFF600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C9AACDF2C68A3CB005AE392 /* ProductCard */ = {
+			isa = PBXGroup;
+			children = (
+				8CD8C5892C67836400CFF600 /* ItemProductCardList.swift */,
+				8CD8C58B2C6785E300CFF600 /* LeftSection.swift */,
+				8CD8C58D2C6785F200CFF600 /* RightSection.swift */,
+			);
+			path = ProductCard;
+			sourceTree = "<group>";
+		};
+		8CD8C5502C67554300CFF600 = {
+			isa = PBXGroup;
+			children = (
+				8CD8C55B2C67554300CFF600 /* SparIosApp */,
+				8CD8C55A2C67554300CFF600 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CD8C55A2C67554300CFF600 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CD8C5592C67554300CFF600 /* SparIosApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CD8C55B2C67554300CFF600 /* SparIosApp */ = {
+			isa = PBXGroup;
+			children = (
+				8CD8C5772C67593800CFF600 /* ViewModels */,
+				8CD8C56E2C67567C00CFF600 /* Views */,
+				8CD8C56C2C6755B500CFF600 /* Models */,
+				8CD8C55C2C67554300CFF600 /* SparIosApp.swift */,
+				8CD8C5602C67554400CFF600 /* Assets.xcassets */,
+				8CD8C5622C67554400CFF600 /* Preview Content */,
+			);
+			path = SparIosApp;
+			sourceTree = "<group>";
+		};
+		8CD8C5622C67554400CFF600 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8CD8C5632C67554400CFF600 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8CD8C56C2C6755B500CFF600 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CD8C56A2C67557700CFF600 /* ProductCard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8CD8C56E2C67567C00CFF600 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8CD8C57B2C67657700CFF600 /* Products */,
+				8CD8C5752C67577900CFF600 /* SwitchViewBar.swift */,
+				8CD8C55E2C67554300CFF600 /* ContentView.swift */,
+				8CD8C5822C6766A800CFF600 /* CustomRoundedShape.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8CD8C5772C67593800CFF600 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8CD8C5792C67599700CFF600 /* ProductCardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8CD8C57B2C67657700CFF600 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CD8C5852C67678D00CFF600 /* List */,
+				8CD8C5842C67677B00CFF600 /* Grid */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		8CD8C5842C67677B00CFF600 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				8CD8C5862C67679F00CFF600 /* ProductCard */,
+				8CD8C56F2C6756AE00CFF600 /* GridView.swift */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		8CD8C5852C67678D00CFF600 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				8C9AACDF2C68A3CB005AE392 /* ProductCard */,
+				8CD8C5872C677F9D00CFF600 /* ListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		8CD8C5862C67679F00CFF600 /* ProductCard */ = {
+			isa = PBXGroup;
+			children = (
+				8CD8C5732C67573100CFF600 /* ItemProductCardGrid.swift */,
+				8CD8C57C2C67659300CFF600 /* TopSection.swift */,
+				8CD8C5802C67667700CFF600 /* BottomSection.swift */,
+			);
+			path = ProductCard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CD8C5582C67554300CFF600 /* SparIosApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD8C5672C67554400CFF600 /* Build configuration list for PBXNativeTarget "SparIosApp" */;
+			buildPhases = (
+				8CD8C5552C67554300CFF600 /* Sources */,
+				8CD8C5562C67554300CFF600 /* Frameworks */,
+				8CD8C5572C67554300CFF600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparIosApp;
+			productName = SparIosApp;
+			productReference = 8CD8C5592C67554300CFF600 /* SparIosApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CD8C5512C67554300CFF600 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8CD8C5582C67554300CFF600 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 8CD8C5542C67554300CFF600 /* Build configuration list for PBXProject "SparIosApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CD8C5502C67554300CFF600;
+			productRefGroup = 8CD8C55A2C67554300CFF600 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CD8C5582C67554300CFF600 /* SparIosApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CD8C5572C67554300CFF600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD8C5642C67554400CFF600 /* Preview Assets.xcassets in Resources */,
+				8CD8C5612C67554400CFF600 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CD8C5552C67554300CFF600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD8C5832C6766A800CFF600 /* CustomRoundedShape.swift in Sources */,
+				8CD8C5762C67577900CFF600 /* SwitchViewBar.swift in Sources */,
+				8CD8C58A2C67836400CFF600 /* ItemProductCardList.swift in Sources */,
+				8CD8C57D2C67659300CFF600 /* TopSection.swift in Sources */,
+				8CD8C55F2C67554300CFF600 /* ContentView.swift in Sources */,
+				8CD8C5742C67573100CFF600 /* ItemProductCardGrid.swift in Sources */,
+				8CD8C5812C67667700CFF600 /* BottomSection.swift in Sources */,
+				8CD8C55D2C67554300CFF600 /* SparIosApp.swift in Sources */,
+				8CD8C58E2C6785F200CFF600 /* RightSection.swift in Sources */,
+				8CD8C58C2C6785E300CFF600 /* LeftSection.swift in Sources */,
+				8CD8C5702C6756AE00CFF600 /* GridView.swift in Sources */,
+				8CD8C5882C677F9D00CFF600 /* ListView.swift in Sources */,
+				8CD8C56B2C67557700CFF600 /* ProductCard.swift in Sources */,
+				8CD8C57A2C67599700CFF600 /* ProductCardViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8CD8C5652C67554400CFF600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CD8C5662C67554400CFF600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CD8C5682C67554400CFF600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SparIosApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Docs.SparIosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CD8C5692C67554400CFF600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SparIosApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Docs.SparIosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CD8C5542C67554300CFF600 /* Build configuration list for PBXProject "SparIosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD8C5652C67554400CFF600 /* Debug */,
+				8CD8C5662C67554400CFF600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD8C5672C67554400CFF600 /* Build configuration list for PBXNativeTarget "SparIosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD8C5682C67554400CFF600 /* Debug */,
+				8CD8C5692C67554400CFF600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CD8C5512C67554300CFF600 /* Project object */;
+}
