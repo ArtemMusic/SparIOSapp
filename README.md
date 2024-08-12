@@ -12,6 +12,6 @@
 - Другие небольшие улучшения.
 
 ## Скриншоты
-![Скриншот приложения](images/one.png)
-![Скриншот приложения](images/two.png)
-![Скриншот приложения](images/three.png)
+<img src="images/one.png" height="500">
+<img src="images/two.png" height="500">
+<img src="images/three.png" height="500">
