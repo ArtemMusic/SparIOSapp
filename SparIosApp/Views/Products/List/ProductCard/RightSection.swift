@@ -86,10 +86,10 @@ struct RightSection: View {
                         let lastCharacter = country.last
                         let stringWithOutLast = country.dropLast(2)
                         
-                        Text("\(stringWithOutLast)")
+                        Text(String(stringWithOutLast))
                             .opacity(0.6)
                         
-                        Text("\(lastCharacter ?? " ")")
+                        Text(String(lastCharacter ?? " "))
                     }
                 }
                 .padding(.top, 4)
